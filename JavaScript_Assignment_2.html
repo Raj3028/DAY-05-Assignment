@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment 2</title>
+  </head>
+  <body>
+    <script>
+      // Declare and initialize an Array
+      var no = [101, 12, 25, 31, 23, 75, 81, 100];
+
+      // Print Before sorting array
+      document.write("Original Array:</br>");
+      document.write(no);
+
+      document.write("</br>");
+
+      // Sort elements using compare method
+      no.sort(function (a, b) {
+        return a - b;
+      });
+
+      document.write("</br> Sorting in Ascending order:</br>");
+
+      // Print sorted Numeric array
+      document.write(no);
+
+      document.write("</br>");
+
+      // Sort elements using compare method
+      no.sort(function (a, b) {
+        return b - a;
+      });
+
+      document.write("</br>Sorting in Descending order:</br>");
+
+      // Print sorted Numeric array
+      document.write(no);
+    </script>
+  </body>
+</html>
